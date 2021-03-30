@@ -1,0 +1,56 @@
+
+            h1{
+                color:blue;
+                margin-left:650px;
+                padding: 20px;
+            }
+            *{
+                border:solid
+            }
+            .header{
+                display:flex;
+                justify-content: space-between
+            }
+            .grid{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content: space-evenly;
+            }
+            p,h2{
+                text-align: center;
+            }
+            .footer{
+                display:flex;
+                justify-content:flex-end;
+            }
+            body{
+                background-color:#fdd700
+            }
+
+            .menu{
+                margin-right: 30px;
+                padding: 15px
+            }
+.menu a{
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top:70%;
+    left:50%;
+}
+
+.item:hover img{
+    opacity:0.5;
+}
+a:link{
+    color:seagreen;
+}
+a:visited{
+    color: springgreen;
+}
